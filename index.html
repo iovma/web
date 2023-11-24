@@ -4,8 +4,16 @@
 
     </head>
     <body class="p(10)">
-        <div contenteditable="true" class="b(2) p(5) h(100%)">
-            1234<span class="b(1)">5678</span>9
+        <div class="hbox h(100%)">
+            <div class="grow(1) flex-basis(0)">
+                <ul>
+                    <li>1</li>
+                    <li>2</li>
+                </ul>
+            </div>
+            <div contenteditable="true" class="b(2) p(5) h(100%) grow(4) flex-basis(0)">
+                1234<span class="b(1)">5678</span>9
+            </div>
         </div>
         <script src="https://unpkg.com/adorable-css@1.4.3"></script>
     </body>
